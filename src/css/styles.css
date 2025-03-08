@@ -16,3 +16,101 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+ input{
+  border: 1px solid #808080;
+  border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    background: #fff;
+    margin-bottom: 32px;
+    margin-top: 36px;
+  
+ }
+ .text-input{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding-left: 16px;
+   
+ }
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 20px;
+  width: 346px;
+  height: 72px;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.label{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+.btn-start{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    text-align: center;
+    justify-content: baseline;
+    font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #989898;
+      background-color:#cfcfcf;
+}
+.btn-start:active {
+  background-color:#4e75ff;
+  color: #fff;
+}
+.btn-start:hover {
+  background: #6c8cff;
+  color: #fff;
+}
+
+.flatpickr-calendar{
+  border-radius: 8px;
+    padding: 16px;
+    width: 280px;
+    height: 352px;
+    background: #f5f5f5;
+}
+.flatpickr-day {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.flatpickr-day.selected {
+  border-radius: 50%;
+    border: 1px solid #4e75ff;
+    background-color:#f5f5f5;
+    color: #333;
+}
+.flatpickr-day.hover {
+  border-radius: 50%;
+  border: 1px solid #c1c1c1;
+  color: #333;
+}
