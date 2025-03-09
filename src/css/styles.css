@@ -17,14 +17,42 @@
 @import url('./back-link.css');
 @import url('./footer.css');
 
+
+.nav-list{
+  margin-top: 120px;
+}
+.nav-item{
+font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color:#4e75ff;
+}
+
+
+.main-title{
+  margin-bottom: 32px;
+  margin-top: 36px;
+}
+
+.timer-block{
+  display: flex;
+  flex-direction: column;
+
+}
+.input-btn-block{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
  input{
   border: 1px solid #808080;
   border-radius: 4px;
     width: 272px;
     height: 40px;
     background: #fff;
-    margin-bottom: 32px;
-    margin-top: 36px;
+    
   
  }
  .text-input{
@@ -78,12 +106,15 @@ font-family: "Montserrat", sans-serif;
       letter-spacing: 0.04em;
       color: #989898;
       background-color:#cfcfcf;
+  
+   
 }
-.btn-start:active {
+.btn-start:enabled {
   background-color:#4e75ff;
   color: #fff;
+  cursor: pointer;
 }
-.btn-start:hover {
+.btn-start:enabled:hover {
   background: #6c8cff;
   color: #fff;
 }
@@ -113,4 +144,59 @@ font-family: "Montserrat", sans-serif;
   border-radius: 50%;
   border: 1px solid #c1c1c1;
   color: #333;
+}
+
+.snack{
+  width: 1440px;
+  height: 496px;
+  background-color: #fff;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Стилізація підпису до інпутів */
+.name-delay {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:8px;
+}
+.delay-input{
+  width: 362px;
+}
+.state-form{
+ width: 342px;
+height: 66px;
+border-radius: 4px;
+border: 1px solid #808080;
+text-align: start;
+}
+.radio-btn{
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+.radio-box{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+gap:48px;
+}
+.btn-snack{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 362px;
+    height: 40px;
+    background: #4e75ff;
+    color: #fff;
+    text-align: center;
+    border: none;
 }
