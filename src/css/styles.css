@@ -143,8 +143,8 @@ font-family: "Montserrat", sans-serif;
 }
 .flatpickr-day.hover {
   border-radius: 50%;
-  border: 1px solid #c1c1c1;
-  color: #333;
+  border: 1px solid #c1c1c1 !important;
+  color: #333 !important;
 }
 
 .snack{
