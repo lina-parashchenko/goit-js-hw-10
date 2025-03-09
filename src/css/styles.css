@@ -106,6 +106,7 @@ font-family: "Montserrat", sans-serif;
       letter-spacing: 0.04em;
       color: #989898;
       background-color:#cfcfcf;
+      border: none;
   
    
 }
@@ -157,7 +158,6 @@ font-family: "Montserrat", sans-serif;
   gap: 15px;
 }
 
-/* Стилізація підпису до інпутів */
 .name-delay {
   font-size: 16px;
   font-weight: 500;
@@ -169,6 +169,7 @@ font-family: "Montserrat", sans-serif;
 }
 .delay-input{
   width: 362px;
+  padding-left: 16px;
 }
 .state-form{
  width: 342px;
